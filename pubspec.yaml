@@ -1,0 +1,72 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  carousel_slider: ^4.2.1
+  webview_flutter: ^4.8.0
+  google_fonts: ^6.2.1
+  html: ^0.15.4
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_svg: ^2.0.10+1
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/magasins.gif
+  - assets/images/menu.png
+  - assets/images/image_1.png
+  - assets/images/phone1.png
+  - assets/images/shopping_cart1.png
+  - assets/images/location1.png
+  - assets/images/male_user1.png
+  - assets/images/search1.png
+  - assets/images/logo_mytek_176_px_inverse_12000001.png
+  - assets/images/bundle_v_311.png
+  - assets/images/home.png
+  - assets/images/search.png
+  - assets/images/male_user.png
+  - assets/images/bookmark.png
+  - assets/images/menu.png
+  - assets/images/shopping_cart.png
+  - assets/images/chatgpt_robot_happy_raising_left_arm.png
+  - assets/images/discount.png
+  - assets/images/close.png
+  - assets/images/keyboard.png
+  - assets/images/chatgpt_robot_happy_raising_left_arm.png
+  - assets/images/key.png
+  - assets/images/forward.png
+  - assets/images/at_sign.png
+  - assets/vectors/ellipse_21_x2.svg
+  - assets/vectors/ellipse_1_x2.svg
+  - assets/vectors/ellipse_2_x2.svg
+  - assets/images/support.png
+  - assets/images/location.png
+  - assets/images/man_on_phone.png
+  - assets/images/ellipse_8.png
+  - assets/images/help.png
+  - assets/images/close.png
+  - assets/images/male_user_1.png
+  - assets/images/bill.png
+  - assets/images/coin_in_hand.png
+  - assets/images/at_sign.png
+  - assets/images/forward.png
+  - assets/images/key.png
+  - assets/vectors/ellipse_22_x2.svg
+  - assets/images/logo_mytek_176_px_inverse_12000001.png
+  - assets/images/c_60_b_65_c_84_b_36_f_2576_ea_664_d_11_c_4271_a_1.png
+  - assets/images/orien_nebula_color_palettesq_1.jpeg
+
