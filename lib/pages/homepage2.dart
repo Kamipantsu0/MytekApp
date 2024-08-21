@@ -240,58 +240,58 @@ class _HomepageState extends State<Homepage> {
   // Method for building the GIF and images
   Widget _buildGif() {
     return SingleChildScrollView(
-        child: Column(
-      children: [
-        // GIF at the top
-        FractionallySizedBox(
-          widthFactor: 0.99, // Responsive width factor (99% of parent width)
-          child: Image.network(
-            _gifUrl,
-            fit: BoxFit.contain, // Adjust fit as needed
+      child: Column(
+        children: [
+          // GIF at the top
+          FractionallySizedBox(
+            widthFactor: 0.99, // Responsive width factor (99% of parent width)
+            child: Image.network(
+              _gifUrl,
+              fit: BoxFit.contain, // Adjust fit as needed
+            ),
           ),
-        ),
-        // Row for two images below the GIF
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            // Left column image
-            Expanded(
-              child: Container(
-                margin: EdgeInsets.all(8),
-                child: Image.network(
-                  _leftImageUrl,
-                  fit: BoxFit.cover,
+          // Row for two images below the GIF
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              // Left column image
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.all(8),
+                  child: Image.network(
+                    _leftImageUrl,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-            ),
-          ],
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            // Left column image
-            Expanded(
-              child: Container(
-                margin: EdgeInsets.all(8),
-                child: Image.network(
-                  _rightImageUrl,
-                  fit: BoxFit.cover,
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              // Right column image
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.all(8),
+                  child: Image.network(
+                    _rightImageUrl,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
-            ),
-          ],
-        ),
-        // New row for the third image
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            // Left column image
-            Expanded(
-              child: Container(
-                margin: EdgeInsets.all(8),
-                child: Image.network(
-                  _thirdImageUrl,
-                  fit: BoxFit.cover,
+            ],
+          ),
+          // New row for the third image
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              // Third image
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.all(8),
+                  child: Image.network(
+                    _thirdImageUrl,
+                    fit: BoxFit.cover,
                 ),
               ),
             ),
