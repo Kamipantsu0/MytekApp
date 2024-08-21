@@ -3,8 +3,7 @@ import 'package:flutter_app/pages/product_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:html/dom.dart' as dom;
 import 'package:http/http.dart' as http;
-import 'menu.dart'; // Import the MenuPage
-// import 'product_page.dart';
+import 'package:flutter_app/pages/menu.dart'; // Ensure this is the correct path
 
 // Article model class
 class Article {
@@ -186,29 +185,31 @@ class _HomepageState extends State<Homepage> {
   // Method for building the header and search bar
   Widget _buildHeaderAndSearchBar(BuildContext context) {
     return Positioned(
-      top: 0,
-      left: 0,
-      right: 0,
-      child: Container(
-        height: 140,
-        color: Color(0xFFC70A0A),
-        child: Padding(
-          padding: EdgeInsets.fromLTRB(10, 8, 19, 10),
-          child: Column(
-            children: [
-              Header(
-                onMenuTap: () => Scaffold.of(context).openDrawer(), // Open drawer
-              ),
-              SizedBox(height: 20),
-              SearchBar(
-                controller: _controller,
-                onSearch: _onSearch,
-                query: _searchQuery,
+        top: 0,
+        left: 0,
+        right: 0,
+        child: Builder(
+        builder: (BuildContext context) => Container(
+      height: 140,
+      color: Color(0xFFC70A0A),
+      child: Padding(
+        padding: EdgeInsets.fromLTRB(10, 8, 19, 10),
+        child: Column(
+          children: [
+            Header(
+              onMenuTap: () => Scaffold.of(context).openDrawer(), // Open drawer
+            ),
+            SizedBox(height: 20),
+            SearchBar(
+              controller: _controller,
+              onSearch: _onSearch,
+              query: _searchQuery,
               ),
             ],
           ),
         ),
       ),
+        )
     );
   }
 
