@@ -1,16 +1,7 @@
-# flutter_app
+MyTEK Mobile App devlopped with flutter it has front end and webscrapping to get products results and show main page elements from the website instead of backend 
 
-A new Flutter project.
+The Figma Reference Designs:
 
-## Getting Started
+https://www.figma.com/design/QSowxiVxx0KwQxhuHl5pLr/mytek-app?node-id=0-1&t=qJytZ00HzxFeANzo-1
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://www.figma.com/design/53a2AbhScipkr5pCY3D4OL/Mytek-Mobile?t=qJytZ00HzxFeANzo-1
